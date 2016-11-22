@@ -5,10 +5,10 @@ the web.
 
 References:
 
-[https://www.fastgraph.com/help/pcx_header_format.html](PCX header format)
+[PCX header format](https://www.fastgraph.com/help/pcx_header_format.html)
 
-[https://en.wikipedia.org/wiki/PCX](PCX format specification)
+[PCX format specification](https://en.wikipedia.org/wiki/PCX)
 
-[https://rkwee.home.xs4all.nl/Variousfiles/pcx.format.html](Paintbrush's Technical Reference Manual)
+[Paintbrush's Technical Reference Manual](https://rkwee.home.xs4all.nl/Variousfiles/pcx.format.html)
 
-[http://www.fysnet.net/pcxfile.htm](PCX File Explained)
+[PCX File Explained](http://www.fysnet.net/pcxfile.htm)
