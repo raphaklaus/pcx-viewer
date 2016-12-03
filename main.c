@@ -9,6 +9,7 @@ int main() {
     int pcx_version;
     int encoding_byte;
     int bits_number_per_plane;
+    int resolution;
   };
 
   struct header h;
@@ -30,9 +31,9 @@ int main() {
         break;
       case 3: h.bits_number_per_plane = (int)buffer[i];
         break;
+      //todo adjust offsets...
+      case 4 ... 8: h.resolution (int)buffer[i]
     }
-    // char *teste = malloc(1);
-    // sprintf(teste, "%02X", buffer[i]);
   }
 
   //todo: read PCX header
