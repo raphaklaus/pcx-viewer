@@ -9,7 +9,10 @@ int main() {
     int pcx_version;
     int encoding_byte;
     int bits_number_per_plane;
-    int resolution;
+    int resolution_min_x;
+    int resolution_min_y;
+    int resolution_max_x;
+    int resolution_max_y;
   };
 
   struct header h;
@@ -32,7 +35,10 @@ int main() {
       case 3: h.bits_number_per_plane = (int)buffer[i];
         break;
       //todo adjust offsets...
-      case 4 ... 8: h.resolution (int)buffer[i]
+      case 4 ... 5: h.resolution_min_x = (int)buffer[i];
+      case 6 ... 7: h.resolution_min_y = (int)buffer[i];
+      case 8 ... 9: h.resolution_max_x = (int)buffer[i];
+      case 10 ... 11: h.resolution_max_y = (int)buffer[i];
     }
   }
 
